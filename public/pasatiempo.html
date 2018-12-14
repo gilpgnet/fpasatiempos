@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cargando…</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
+    <form name="vista">
+      <header>
+        <h1><output name="titulo">Cargando…</output></h1>
+        <a accesskey="C" href="index.html">Cancelar</a>
+        <input type="submit" accesskey="G" value="Guardar">
+        <button type="button" name="elimina" accesskey="E">Eliminar</button>
+      </header>
+      <main role="main">
+        <p>
+          <label accesskey="N">
+            Nombre
+            <input type="text" name="nombre" required autofocus>
+          </label>
+        </p>
+      </main>
+    </form>
+    <!-- update the version number as needed -->
+    <script src="/__/firebase/5.7.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script src="/__/firebase/5.7.0/firebase-database.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script src="/__/firebase/init.js"></script>
+    <script type="module" src="js/ctrlPasatiempo.js"></script>
+  </body>
+</html>
