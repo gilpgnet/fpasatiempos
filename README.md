@@ -14,7 +14,7 @@ Puedes verlo en https://fpasatiempos.firebaseapp.com
     - [404.html](/public/404.html)
     - [index.html](/public/index.html)
     - [pasatiempo.html](/public/pasatiempo.html)
-    - ]pasatiempoNuevo.html](/public/pasatiempoNuevo.html)
+    - [pasatiempoNuevo.html](/public/pasatiempoNuevo.html)
 - [.firebaserc](/.firebaserc)
 - [database.rules.json](/database.rules.json)
 - [firebase.json](/firebase.json)
